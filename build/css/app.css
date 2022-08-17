@@ -1,6 +1,8 @@
 .nav {
   display: flex;
-  flex-direction: row-reverse;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin: 3rem 1rem;
 }
 
 .nav-item {
@@ -19,12 +21,22 @@
   justify-content: center;
 }
 
-.logo {
+.logo-container {
+  display: flex;
+  justify-content: center;
   width: 50%;
+}
+
+.logo {
+  max-width: 400px;
 }
 
 *,
 *::before,
 *::after {
   box-sizing: border-box;
+}
+
+body {
+  font-family: Roboto, sans-serif;
 }

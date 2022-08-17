@@ -1,5 +1,11 @@
+
+@use 'home';
+@use 'advanced';
+@use 'img';
+
 *,
 *::before,
 *::after {
     box-sizing: border-box;
 }
+

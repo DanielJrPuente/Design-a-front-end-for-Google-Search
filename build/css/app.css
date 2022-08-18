@@ -12,6 +12,7 @@
 
 .nav-link {
   text-decoration: none;
+  color: rgb(26, 50, 169);
 }
 
 .content {
@@ -25,16 +26,44 @@
   display: flex;
   justify-content: center;
   width: 50%;
+  margin: 3rem 0;
 }
 
 .logo {
   max-width: 400px;
 }
 
+.imput {
+  width: 65vw;
+  max-width: 500px;
+  border-radius: 15px;
+  height: 44px;
+  font-size: 16px;
+  box-shadow: 0 1px 6px 0;
+  margin-bottom: 16px;
+}
+
+.google-btns {
+  display: flex;
+  justify-content: center;
+}
+.google-btns .google-btn {
+  margin: 1rem 1rem;
+  background-color: #f8f9fa;
+  border: 1px solid #f8f9fa;
+  border-radius: 4px;
+  color: #3c4043;
+  padding: 0.3rem 1.6rem;
+}
+
 *,
 *::before,
 *::after {
   box-sizing: border-box;
+}
+
+html {
+  font-size: 62, 5%;
 }
 
 body {
